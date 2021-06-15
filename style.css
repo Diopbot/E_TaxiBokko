@@ -1,0 +1,32 @@
+html,body{
+    display: grid;
+    height: auto;
+    place-items: center;
+}
+
+.global{
+    
+    
+}
+form{
+    background-color: azure;
+    
+    
+    
+    
+
+}
+.ins2{
+    float: left;
+    border-style: hidden;
+    width: 50%;
+    
+    
+}
+button{
+    background-color:rgba(6, 6, 196, 0.733);
+    color: white;
+}
+#formulaire2{
+    display: none;
+}
