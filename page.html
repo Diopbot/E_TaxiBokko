@@ -9,16 +9,15 @@
 </head>
 <body>
     <div class="global">
-        <div  id="formulaire1">
-            <button type="submiT">INSCRIPTION</button>
-            <p>En cliquant sur inscription on tombe sur les étapes suivantes</p>
-        </div>
-            <br>
-        <div>
+        
             <h1>INSCRIPTION</h1>
             <p>Votre chauffeur en un clic</p>
-            <button>Continuer avec Facebook</button>
-            <h3>ou</h3>
+                
+                <button>
+                    <a href="https://www.facebook.com">Continuer avec Facebook</a>
+                </button>
+                
+            <h3>______ou_________</h3>
             <form action="inscription">
                 <label for="email">Email</label><br>
                 <input type="email" placeholder="entrer votre adresse mail" required><br>
@@ -26,10 +25,16 @@
                 <label for="email">mot de passe</label><br>
                 <input type="password"  placeholder="veuillez entrer votre mot de passe" required><br>
                 <br>
-                <a href="#">J'ai déja un compte</a>
-                <a href="page2.html"> s'inscrire </a>
+                
+                    <div class="ins">
+                        <a href="#">J'ai déja un compte</a>
+                        
+                        <button>
+                        <a href="page2.html"> s'inscrire </a>
+                        </button>
+                    </div>
             </form>
-        </div>
+        
     </div>
     <script type="text/javascript">
         function Openform(){

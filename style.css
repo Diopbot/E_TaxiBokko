@@ -3,30 +3,44 @@ html,body{
     height: auto;
     place-items: center;
 }
-
 .global{
-    
-    
+    background-color: ghostwhite;
+    width: 200%;    
 }
 form{
-    background-color: azure;
-    
-    
-    
-    
-
+    background-color: ghostwhite;
+    width: auto;
+    position: all;
+    align-content: center;
 }
-.ins2{
-    float: left;
+.ins{
+    width: auto;
     border-style: hidden;
-    width: 50%;
-    
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px;
+    padding: 0px;
 }
 button{
-    background-color:rgba(6, 6, 196, 0.733);
-    color: white;
+    background-color: 3d599B;
+    width: 100%;
+    height: 26px;
 }
 #formulaire2{
     display: none;
+}
+a{
+    background: transparent;
+    color: blue;
+    text-decoration: none;
+    front-weight: bold;
+}
+input{
+    width: 70%;
+    height: 26%;
+}
+h3{
+    align-content: center;
+    position: relative;
+    margin-left: 30%;  
 }
